@@ -1,0 +1,22 @@
+@media screen and (max-width: 575px) {
+    .col-xs-1 {
+        flex-basis: calc(((100% / 12) * 1) - 1.7px);
+        max-width: calc((100% / 12) * 1);
+    }
+
+    .col-xs-2 {
+        flex-basis: calc(((100% / 12) * 2) - 2px) ;
+        max-width: calc((100% / 12) * 2);
+    }
+
+    .col-xs-5 {
+        flex-basis: calc(((100% / 12) * 5) - 2px);
+        max-width: calc((100% / 12) * 5);
+    }
+
+    .col-xs-12 {
+        flex-basis: calc(((100% / 12) * 12) - 2.5px);
+        max-width: calc((100% / 12) * 12);
+    }
+
+}
