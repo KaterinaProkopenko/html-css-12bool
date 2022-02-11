@@ -11,3 +11,20 @@ h2 {
     align-items: center;
     border: 1px solid white;
 }
+
+.big-blue {
+    height: 60px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-green {
+    width: 90%;
+    height: 30px;
+    background-color: rgb(10, 185, 10);
+    font-size: 12px;
+}
+

@@ -1,21 +1,31 @@
 @media screen and (max-width: 575px) {
     .col-xs-1 {
-        flex-basis: calc(((100% / 12) * 1) - 1.7px);
+        flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
     }
 
     .col-xs-2 {
-        flex-basis: calc(((100% / 12) * 2) - 2px) ;
+        flex-basis: calc((100% / 12) * 2);
         max-width: calc((100% / 12) * 2);
     }
 
     .col-xs-5 {
-        flex-basis: calc(((100% / 12) * 5) - 2px);
+        flex-basis: calc((100% / 12) * 5);
         max-width: calc((100% / 12) * 5);
     }
 
+    .col-xs-6 {
+        flex-basis: calc((100% / 12) * 6);
+        max-width: calc((100% / 12) * 6);
+    }
+
+    .col-xs-8 {
+        flex-basis: calc((100% / 12) * 8);
+        max-width: calc((100% / 12) * 8);
+    }
+
     .col-xs-12 {
-        flex-basis: calc(((100% / 12) * 12) - 2.5px);
+        flex-basis: calc((100% / 12) * 12);
         max-width: calc((100% / 12) * 12);
     }
 
