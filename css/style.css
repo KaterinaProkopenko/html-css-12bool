@@ -1,30 +1,39 @@
-h2 {
-    margin: 5px;
+div.bg-color {
+    height: 100%;
+    border: 1px solid white;
+    line-height: 2.6rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
 }
 
-.small-blue {
-    height: 40px;
+div.row-bg {
     background-color: blue;
-    color: white;
+    margin-bottom: 1rem;
+}
+
+div.col-large {
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: .75rem;
+}
+
+div.col-nested {
+    font-size: 0.6rem;
+    border: 1px solid blue;
+    background-color: lightgreen;
+    line-height: 1.5rem;
+}
+
+div.height-col {
+    height: 2.8rem;
     border: 1px solid white;
 }
 
-.big-blue {
-    height: 60px;
+div.off-col {
     background-color: blue;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.row-green {
-    width: 90%;
-    height: 30px;
-    background-color: rgb(10, 185, 10);
-    font-size: 12px;
+div.off-row {
+    justify-content: flex-end;
 }
-
